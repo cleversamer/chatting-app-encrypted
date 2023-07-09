@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher Tech</title>
+    <style>
+      body {
+        height: 100vh;
+        display: grid;
+        place-content: center;
+      }
+
+      h1 {
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>this is the demo version of Technology Teacher App.</h1>
+
+    <!-- <ul id="messages"></ul>
+    <form id="form">
+      <input type="text" id="message-input" />
+      <button type="submit">Send</button>
+    </form>
+
+    <script src="/node_modules/socket.io/client-dist/socket.io.js"></script>
+
+    <script>
+      const socket = io("http://localhost:4000/");
+      const roomId = "room#1";
+
+      socket.on("message received", (message) => {
+        displayMessage(message.text);
+      });
+
+      document.querySelector("#form").addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const text = getMessage();
+        if (!text) return;
+
+        displayMessage(text);
+        socket.emit("new message", roomId, { text });
+      });
+
+      function displayMessage(text) {
+        document.querySelector("#messages").innerHTML += `<li>${text}</li>`;
+      }
+
+      function getMessage() {
+        const element = document.querySelector("#message-input");
+        const text = element.value;
+        element.value = "";
+        return text;
+      }
+    </script> -->
+  </body>
+</html>

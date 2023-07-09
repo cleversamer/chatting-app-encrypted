@@ -1,0 +1,6 @@
+{
+  "development": {
+    "port": 4000,
+    "mongoURI": "mongodb://localhost:27017/tech-tech"
+  }
+}
