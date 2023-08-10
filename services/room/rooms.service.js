@@ -1,63 +1,174 @@
-const _0x298462 = _0x1b94;
-(function (_0x3291ad, _0x3e2fa7) {
-  const _0x403ca1 = _0x1b94,
-    _0x32307b = _0x3291ad();
-  while (!![]) {
-    try {
-      const _0x291051 =
-        parseInt(_0x403ca1(0x14c)) / 0x1 +
-        (parseInt(_0x403ca1(0x190)) / 0x2) *
-          (parseInt(_0x403ca1(0x147)) / 0x3) +
-        (parseInt(_0x403ca1(0x169)) / 0x4) *
-          (parseInt(_0x403ca1(0x165)) / 0x5) +
-        -parseInt(_0x403ca1(0x17e)) / 0x6 +
-        parseInt(_0x403ca1(0x144)) / 0x7 +
-        parseInt(_0x403ca1(0x185)) / 0x8 +
-        (parseInt(_0x403ca1(0x17d)) / 0x9) *
-          (-parseInt(_0x403ca1(0x191)) / 0xa);
-      if (_0x291051 === _0x3e2fa7) break;
-      else _0x32307b["push"](_0x32307b["shift"]());
-    } catch (_0x485485) {
-      _0x32307b["push"](_0x32307b["shift"]());
-    }
-  }
-})(_0x2814, 0x875b0);
-function _0x1b94(_0x45edda, _0x27b66c) {
-  const _0x2814e8 = _0x2814();
+function _0x409a() {
+  const _0x3cf6ef = [
+    "findByIdAndDelete",
+    "deleteFile",
+    "forEach",
+    "toggleChatDisabled",
+    "deleteMembers",
+    "chatDisabled",
+    "rooms",
+    "textScore",
+    "alreadyJoined",
+    "../user/users.service",
+    "searchRoomMembers",
+    "role",
+    "ObjectId",
+    "joinedRooms",
+    "6RAMTlT",
+    "pinnedMessages",
+    "4586388trjRmk",
+    "private",
+    "143002EiFbjB",
+    "firstname",
+    "file",
+    "aggregate",
+    "toString",
+    "code",
+    "BAD_REQUEST",
+    "find",
+    "../../middleware/apiError",
+    "../../models/assignment.model",
+    "../../models/message.model",
+    "./messages.service",
+    "unjoinUsersFromRoom",
+    "isPinned",
+    "user",
+    "switchRoomToPrivate",
+    "changeRoomName",
+    "status",
+    "joinRoom",
+    "notJoined",
+    "2604340TFQRXJ",
+    "users",
+    "body",
+    "1679153GZppSP",
+    "findRoomById",
+    "getMappedRooms",
+    "12spgPER",
+    "blockUsersFromChatting",
+    "deleteRoom",
+    "1640bsgbMI",
+    "admin",
+    "filter",
+    "length",
+    "assignments",
+    "5913376aYmAdb",
+    "$members",
+    "toggleShowName",
+    "messages",
+    "UNAUTHORIZED",
+    "createRoom",
+    "invalidCode",
+    "deleteRoomAssets",
+    "unauthorized",
+    "unshift",
+    "deleteMany",
+    "createdRooms",
+    "noRooms",
+    "../../config/errors",
+    "BAD_GATEWAY",
+    "files",
+    "mongoose",
+    "findById",
+    "FORBIDDEN",
+    "findRoomByName",
+    "../storage/localStorage.service",
+    "4FcxvMX",
+    "../../models/room.model",
+    "showName",
+    "addPinnedMessage",
+    "includes",
+    "public",
+    "name",
+    "createMessage",
+    "../../models/user.model",
+    "9819PIFvZN",
+    "exports",
+    "resetRoom",
+    "getRoomMembers",
+    "message",
+    "../../models/submission.model",
+    "author",
+    "incorrectCode",
+    "findOne",
+    "851145EWXzpa",
+    "members",
+    "save",
+    "Types",
+    "22TLvmyI",
+    "NOT_FOUND",
+    "notFound",
+    "url",
+    "map",
+    "lastname",
+    "_id",
+  ];
+  _0x409a = function () {
+    return _0x3cf6ef;
+  };
+  return _0x409a();
+}
+const _0x5d3e81 = _0x459f;
+function _0x459f(_0x28bfb0, _0x29fb43) {
+  const _0x409a16 = _0x409a();
   return (
-    (_0x1b94 = function (_0x1b9489, _0x27d0f5) {
-      _0x1b9489 = _0x1b9489 - 0x12e;
-      let _0xbd545b = _0x2814e8[_0x1b9489];
-      return _0xbd545b;
+    (_0x459f = function (_0x459fde, _0x2e250d) {
+      _0x459fde = _0x459fde - 0xf0;
+      let _0x53395f = _0x409a16[_0x459fde];
+      return _0x53395f;
     }),
-    _0x1b94(_0x45edda, _0x27b66c)
+    _0x459f(_0x28bfb0, _0x29fb43)
   );
 }
-const { ApiError } = require(_0x298462(0x145)),
-  { Room } = require(_0x298462(0x167)),
-  { Message } = require(_0x298462(0x186)),
-  { Assignment } = require(_0x298462(0x15c)),
-  { Submission } = require(_0x298462(0x17f)),
-  { User } = require(_0x298462(0x141)),
-  { MESSAGE_TYPES } = require(_0x298462(0x186)),
-  errors = require("../../config/errors"),
+(function (_0x1aba2c, _0xdcc988) {
+  const _0x38d8b6 = _0x459f,
+    _0xb9ad57 = _0x1aba2c();
+  while (!![]) {
+    try {
+      const _0x41aff7 =
+        (-parseInt(_0x38d8b6(0x10f)) / 0x1) *
+          (-parseInt(_0x38d8b6(0xf5)) / 0x2) +
+        (-parseInt(_0x38d8b6(0x13e)) / 0x3) *
+          (parseInt(_0x38d8b6(0x12c)) / 0x4) +
+        -parseInt(_0x38d8b6(0x109)) / 0x5 +
+        (-parseInt(_0x38d8b6(0xf1)) / 0x6) *
+          (-parseInt(_0x38d8b6(0x10c)) / 0x7) +
+        parseInt(_0x38d8b6(0x117)) / 0x8 +
+        (-parseInt(_0x38d8b6(0x135)) / 0x9) *
+          (-parseInt(_0x38d8b6(0x112)) / 0xa) +
+        (-parseInt(_0x38d8b6(0x142)) / 0xb) * (parseInt(_0x38d8b6(0xf3)) / 0xc);
+      if (_0x41aff7 === _0xdcc988) break;
+      else _0xb9ad57["push"](_0xb9ad57["shift"]());
+    } catch (_0x1ccd7c) {
+      _0xb9ad57["push"](_0xb9ad57["shift"]());
+    }
+  }
+})(_0x409a, 0x6d21e);
+const { ApiError } = require(_0x5d3e81(0xfd)),
+  { Room } = require(_0x5d3e81(0x12d)),
+  { Message } = require(_0x5d3e81(0xff)),
+  { Assignment } = require(_0x5d3e81(0xfe)),
+  { Submission } = require(_0x5d3e81(0x13a)),
+  { User } = require(_0x5d3e81(0x134)),
+  { MESSAGE_TYPES } = require(_0x5d3e81(0xff)),
+  errors = require(_0x5d3e81(0x124)),
   httpStatus = require("http-status"),
-  messagesService = require(_0x298462(0x16f)),
-  localStorage = require(_0x298462(0x177)),
-  mongoose = require("mongoose"),
-  usersService = require(_0x298462(0x16d));
-(module["exports"][_0x298462(0x174)] = async () => {
-  const _0x99e9c3 = _0x298462;
+  messagesService = require(_0x5d3e81(0x100)),
+  localStorage = require(_0x5d3e81(0x12b)),
+  mongoose = require(_0x5d3e81(0x127)),
+  usersService = require(_0x5d3e81(0x152));
+(module[_0x5d3e81(0x136)]["getAllRooms"] = async () => {
+  const _0x552808 = _0x5d3e81;
   try {
-    const _0x15e97e = await Room["aggregate"]([
+    const _0x14a6e6 = await Room[_0x552808(0xf8)]([
         { $match: { isPinned: !![] } },
         { $sort: { _id: -0x1 } },
         {
           $lookup: {
-            from: _0x99e9c3(0x155),
-            localField: _0x99e9c3(0x159),
+            from: _0x552808(0x10a),
+            localField: _0x552808(0x13b),
             foreignField: "_id",
-            as: _0x99e9c3(0x159),
+            as: _0x552808(0x13b),
           },
         },
         {
@@ -66,21 +177,21 @@ const { ApiError } = require(_0x298462(0x145)),
             name: 0x1,
             isPinned: 0x1,
             showName: 0x1,
-            members: { $size: _0x99e9c3(0x13e) },
+            members: { $size: _0x552808(0x118) },
             status: 0x1,
             author: { _id: 0x1, firstname: 0x1, lastname: 0x1 },
           },
         },
       ]),
-      _0x9f5656 = await Room[_0x99e9c3(0x168)]([
+      _0x59c42b = await Room["aggregate"]([
         { $match: { isPinned: ![] } },
         { $sort: { _id: -0x1 } },
         {
           $lookup: {
-            from: "users",
-            localField: _0x99e9c3(0x159),
-            foreignField: "_id",
-            as: _0x99e9c3(0x159),
+            from: _0x552808(0x10a),
+            localField: _0x552808(0x13b),
+            foreignField: _0x552808(0x148),
+            as: _0x552808(0x13b),
           },
         },
         {
@@ -89,107 +200,110 @@ const { ApiError } = require(_0x298462(0x145)),
             name: 0x1,
             isPinned: 0x1,
             showName: 0x1,
-            members: { $size: _0x99e9c3(0x13e) },
+            members: { $size: _0x552808(0x118) },
             status: 0x1,
             author: { _id: 0x1, firstname: 0x1, lastname: 0x1 },
           },
         },
       ]),
-      _0x4cfe73 = [..._0x15e97e, ..._0x9f5656];
-    if (!_0x4cfe73 || !_0x4cfe73[_0x99e9c3(0x149)]) {
-      const _0x3bab9c = httpStatus[_0x99e9c3(0x194)],
-        _0x2e3cd1 = errors[_0x99e9c3(0x130)][_0x99e9c3(0x172)];
-      throw new ApiError(_0x3bab9c, _0x2e3cd1);
+      _0x189cff = [..._0x14a6e6, ..._0x59c42b];
+    if (!_0x189cff || !_0x189cff[_0x552808(0x115)]) {
+      const _0xad99f9 = httpStatus[_0x552808(0x143)],
+        _0x2c48ac = errors[_0x552808(0x14f)][_0x552808(0x123)];
+      throw new ApiError(_0xad99f9, _0x2c48ac);
     }
-    return _0x4cfe73;
-  } catch (_0x88fab1) {
-    throw _0x88fab1;
+    return _0x189cff;
+  } catch (_0x1e9063) {
+    throw _0x1e9063;
   }
 }),
-  (module[_0x298462(0x146)][_0x298462(0x14a)] = async (
-    _0xfd6675,
-    _0x3f85f1
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x111)] = async (
+    _0x2c153b,
+    _0x73e090
   ) => {
-    const _0x40e7b0 = _0x298462;
+    const _0xc84dad = _0x5d3e81;
     try {
-      const _0x1808d7 = await Room["findById"](_0xfd6675);
-      if (!_0x1808d7) {
-        const _0x46a7ef = httpStatus["NOT_FOUND"],
-          _0x44f31f = errors[_0x40e7b0(0x130)][_0x40e7b0(0x148)];
-        throw new ApiError(_0x46a7ef, _0x44f31f);
+      const _0x129f54 = await Room[_0xc84dad(0x128)](_0x2c153b);
+      if (!_0x129f54) {
+        const _0x9e464f = httpStatus[_0xc84dad(0x143)],
+          _0xe36085 = errors["rooms"]["notFound"];
+        throw new ApiError(_0x9e464f, _0xe36085);
       }
-      const _0x3a3a7e =
-        _0x1808d7[_0x40e7b0(0x159)]["toString"]() ===
-          _0x3f85f1?.["_id"]?.[_0x40e7b0(0x187)]() ||
-        _0x3f85f1[_0x40e7b0(0x182)] === "admin";
-      if (!_0x3a3a7e) {
-        const _0x432566 = httpStatus[_0x40e7b0(0x153)],
-          _0x2dd273 = errors[_0x40e7b0(0x130)][_0x40e7b0(0x134)];
-        throw new ApiError(_0x432566, _0x2dd273);
+      const _0x2e2199 =
+        _0x129f54[_0xc84dad(0x13b)][_0xc84dad(0xf9)]() ===
+          _0x73e090?.[_0xc84dad(0x148)]?.[_0xc84dad(0xf9)]() ||
+        _0x73e090[_0xc84dad(0x154)] === _0xc84dad(0x113);
+      if (!_0x2e2199) {
+        const _0x4e0aa8 = httpStatus["FORBIDDEN"],
+          _0x5318fa = errors[_0xc84dad(0x14f)][_0xc84dad(0x11f)];
+        throw new ApiError(_0x4e0aa8, _0x5318fa);
       }
-      await this["deleteRoomAssets"](_0xfd6675);
-      const _0x1f8e45 = await User["findById"](_0x1808d7["author"]);
+      await this[_0xc84dad(0x11e)](_0x2c153b);
+      const _0x3b0b17 = await User["findById"](_0x129f54[_0xc84dad(0x13b)]);
       return (
-        (_0x1f8e45[_0x40e7b0(0x14e)] = _0x1f8e45[_0x40e7b0(0x14e)][
-          _0x40e7b0(0x16e)
+        (_0x3b0b17["createdRooms"] = _0x3b0b17[_0xc84dad(0x122)][
+          _0xc84dad(0x114)
         ](
-          (_0x1dec89) =>
-            _0x1dec89[_0x40e7b0(0x187)]() !==
-            _0x1808d7["_id"][_0x40e7b0(0x187)]()
+          (_0x35094b) =>
+            _0x35094b[_0xc84dad(0xf9)]() !==
+            _0x129f54[_0xc84dad(0x148)][_0xc84dad(0xf9)]()
         )),
-        await _0x1f8e45["save"](),
-        await Room[_0x40e7b0(0x131)](_0xfd6675),
-        _0x1808d7
+        await _0x3b0b17[_0xc84dad(0x140)](),
+        await Room[_0xc84dad(0x149)](_0x2c153b),
+        _0x129f54
       );
-    } catch (_0x42c13a) {
-      throw _0x42c13a;
+    } catch (_0x54d68a) {
+      throw _0x54d68a;
     }
   }),
-  (module[_0x298462(0x146)]["findRoomById"] = async (_0x13c819) => {
-    const _0xef2222 = _0x298462;
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x10d)] = async (_0x43aecf) => {
+    const _0x216288 = _0x5d3e81;
     try {
       return (
-        (_0x13c819 = new mongoose["Types"][_0xef2222(0x188)](_0x13c819)),
-        await Room["findById"](_0x13c819)
+        (_0x43aecf = new mongoose[_0x216288(0x141)][_0x216288(0x155)](
+          _0x43aecf
+        )),
+        await Room[_0x216288(0x128)](_0x43aecf)
       );
-    } catch (_0x34def9) {
-      throw _0x34def9;
+    } catch (_0x290ee0) {
+      throw _0x290ee0;
     }
   }),
-  (module["exports"][_0x298462(0x173)] = async (_0x432a99) => {
+  (module[_0x5d3e81(0x136)]["findRoomByName"] = async (_0x5af520) => {
+    const _0x291020 = _0x5d3e81;
     try {
-      return await Room["findOne"]({ name: _0x432a99 });
-    } catch (_0x5a87ef) {
-      throw _0x5a87ef;
+      return await Room[_0x291020(0x13d)]({ name: _0x5af520 });
+    } catch (_0x17eb3e) {
+      throw _0x17eb3e;
     }
   }),
-  (module["exports"]["searchRooms"] = async (_0x2b4f69, _0x32254f) => {
-    const _0x3190d7 = _0x298462;
+  (module[_0x5d3e81(0x136)]["searchRooms"] = async (_0x136ce5, _0x597964) => {
+    const _0x4f69de = _0x5d3e81;
     try {
-      const _0x50bf6d = [
-          ..._0x2b4f69[_0x3190d7(0x14e)],
-          ..._0x2b4f69[_0x3190d7(0x142)],
+      const _0x4efb61 = [
+          ..._0x136ce5[_0x4f69de(0x122)],
+          ..._0x136ce5["joinedRooms"],
         ],
-        _0x33b144 = await Room[_0x3190d7(0x168)]([
+        _0xa4a50 = await Room[_0x4f69de(0xf8)]([
           {
-            $match: { $text: { $search: _0x32254f }, _id: { $in: _0x50bf6d } },
+            $match: { $text: { $search: _0x597964 }, _id: { $in: _0x4efb61 } },
           },
-          { $sort: { score: { $meta: _0x3190d7(0x183) } } },
+          { $sort: { score: { $meta: _0x4f69de(0x150) } } },
           { $limit: 0xa },
           {
             $lookup: {
-              from: _0x3190d7(0x155),
-              localField: _0x3190d7(0x18a),
-              foreignField: _0x3190d7(0x14b),
-              as: _0x3190d7(0x18a),
+              from: _0x4f69de(0x10a),
+              localField: _0x4f69de(0x13f),
+              foreignField: _0x4f69de(0x148),
+              as: _0x4f69de(0x13f),
             },
           },
           {
             $lookup: {
-              from: _0x3190d7(0x155),
+              from: "users",
               localField: "author",
-              foreignField: _0x3190d7(0x14b),
-              as: _0x3190d7(0x159),
+              foreignField: "_id",
+              as: _0x4f69de(0x13b),
             },
           },
           {
@@ -209,24 +323,24 @@ const { ApiError } = require(_0x298462(0x145)),
             },
           },
         ]);
-      let _0x39bd36 = await Room["aggregate"]([
-        { $match: { $text: { $search: _0x32254f }, status: _0x3190d7(0x156) } },
-        { $sort: { score: { $meta: _0x3190d7(0x183) } } },
+      let _0x3a0b36 = await Room[_0x4f69de(0xf8)]([
+        { $match: { $text: { $search: _0x597964 }, status: _0x4f69de(0x131) } },
+        { $sort: { score: { $meta: _0x4f69de(0x150) } } },
         { $limit: 0xa },
         {
           $lookup: {
-            from: _0x3190d7(0x155),
-            localField: _0x3190d7(0x18a),
-            foreignField: _0x3190d7(0x14b),
-            as: _0x3190d7(0x18a),
+            from: _0x4f69de(0x10a),
+            localField: _0x4f69de(0x13f),
+            foreignField: _0x4f69de(0x148),
+            as: _0x4f69de(0x13f),
           },
         },
         {
           $lookup: {
-            from: _0x3190d7(0x155),
-            localField: _0x3190d7(0x159),
-            foreignField: _0x3190d7(0x14b),
-            as: "author",
+            from: "users",
+            localField: _0x4f69de(0x13b),
+            foreignField: _0x4f69de(0x148),
+            as: _0x4f69de(0x13b),
           },
         },
         {
@@ -247,84 +361,85 @@ const { ApiError } = require(_0x298462(0x145)),
         },
       ]);
       return (
-        (_0x39bd36 = _0x39bd36[_0x3190d7(0x16e)](
-          (_0x56de2d) =>
-            !_0x2b4f69["createdRooms"]["includes"](_0x56de2d[_0x3190d7(0x14b)])
+        (_0x3a0b36 = _0x3a0b36["filter"](
+          (_0x1e97c0) =>
+            !_0x136ce5[_0x4f69de(0x122)][_0x4f69de(0x130)](_0x1e97c0["_id"])
         )),
-        { myRooms: _0x33b144, resultRooms: _0x39bd36 }
+        { myRooms: _0xa4a50, resultRooms: _0x3a0b36 }
       );
-    } catch (_0x58949b) {
-      throw _0x58949b;
+    } catch (_0x365815) {
+      throw _0x365815;
     }
   }),
-  (module["exports"][_0x298462(0x135)] = async (_0x96ee0, _0xec455) => {
-    const _0x85385 = _0x298462;
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x138)] = async (
+    _0x8cebf4,
+    _0x5da92a
+  ) => {
+    const _0x36b565 = _0x5d3e81;
     try {
-      const _0x53dfa4 = await this["getMappedRooms"]([_0xec455]),
-        _0x206fd1 = _0x53dfa4[0x0];
-      if (!_0x206fd1) {
-        const _0x3ccc4f = httpStatus["NOT_FOUND"],
-          _0x567d8a = errors[_0x85385(0x130)][_0x85385(0x148)];
-        throw new ApiError(_0x3ccc4f, _0x567d8a);
+      const _0x4855ba = await this[_0x36b565(0x10e)]([_0x5da92a]),
+        _0x51ff30 = _0x4855ba[0x0];
+      if (!_0x51ff30) {
+        const _0x2e2816 = httpStatus["NOT_FOUND"],
+          _0x491128 = errors[_0x36b565(0x14f)][_0x36b565(0x144)];
+        throw new ApiError(_0x2e2816, _0x491128);
       }
-      const _0x4186b4 = _0x206fd1[_0x85385(0x18a)]
-          [_0x85385(0x162)]((_0x4d2e41) =>
-            _0x4d2e41[_0x85385(0x14b)][_0x85385(0x187)]()
-          )
-          [_0x85385(0x154)](_0xec455),
-        _0x428f78 =
-          _0x206fd1["author"][0x0][_0x85385(0x14b)][_0x85385(0x187)]() ===
-          _0x96ee0[_0x85385(0x14b)][_0x85385(0x187)](),
-        _0x1a46e4 = _0x4186b4 || _0x428f78;
-      if (!_0x1a46e4) {
-        const _0x439f69 = httpStatus["FORBIDDEN"],
-          _0x56a0b2 = errors[_0x85385(0x130)][_0x85385(0x14f)];
-        throw new ApiError(_0x439f69, _0x56a0b2);
+      const _0x40df1c = _0x51ff30[_0x36b565(0x13f)]
+          [_0x36b565(0x146)]((_0x5c7a25) => _0x5c7a25["_id"]["toString"]())
+          [_0x36b565(0x130)](_0x5da92a),
+        _0x21b947 =
+          _0x51ff30[_0x36b565(0x13b)][0x0]["_id"][_0x36b565(0xf9)]() ===
+          _0x8cebf4["_id"][_0x36b565(0xf9)](),
+        _0x14080e = _0x40df1c || _0x21b947;
+      if (!_0x14080e) {
+        const _0x148823 = httpStatus[_0x36b565(0x129)],
+          _0x50d39e = errors["rooms"][_0x36b565(0x108)];
+        throw new ApiError(_0x148823, _0x50d39e);
       }
-      return _0x206fd1["members"];
-    } catch (_0x24cfe5) {
-      throw _0x24cfe5;
+      return _0x51ff30[_0x36b565(0x13f)];
+    } catch (_0xd51faa) {
+      throw _0xd51faa;
     }
   }),
-  (module[_0x298462(0x146)]["getMappedRooms"] = async (_0x339e94 = []) => {
-    const _0x3d33ca = _0x298462;
-    _0x339e94 = _0x339e94["map"](
-      (_0x5db6bb) => new mongoose[_0x3d33ca(0x18f)][_0x3d33ca(0x188)](_0x5db6bb)
+  (module["exports"][_0x5d3e81(0x10e)] = async (_0x2015f7 = []) => {
+    const _0x705af4 = _0x5d3e81;
+    _0x2015f7 = _0x2015f7["map"](
+      (_0x234d98) => new mongoose[_0x705af4(0x141)][_0x705af4(0x155)](_0x234d98)
     );
     try {
-      return await Room[_0x3d33ca(0x168)]([
-        { $match: { _id: { $in: _0x339e94 } } },
+      return await Room[_0x705af4(0xf8)]([
+        { $match: { _id: { $in: _0x2015f7 } } },
         { $sort: { _id: -0x1 } },
         {
           $lookup: {
-            from: _0x3d33ca(0x155),
-            localField: _0x3d33ca(0x18a),
-            foreignField: _0x3d33ca(0x14b),
+            from: "users",
+            localField: "members",
+            foreignField: _0x705af4(0x148),
             as: "members",
           },
         },
         {
           $lookup: {
-            from: _0x3d33ca(0x155),
-            localField: _0x3d33ca(0x159),
-            foreignField: _0x3d33ca(0x14b),
-            as: _0x3d33ca(0x159),
+            from: _0x705af4(0x10a),
+            localField: _0x705af4(0x13b),
+            foreignField: _0x705af4(0x148),
+            as: "author",
           },
         },
         {
           $lookup: {
-            from: _0x3d33ca(0x13a),
-            localField: "pinnedMessages",
-            foreignField: _0x3d33ca(0x14b),
-            as: _0x3d33ca(0x13b),
+            from: _0x705af4(0x11a),
+            localField: _0x705af4(0xf2),
+            foreignField: "_id",
+            as: _0x705af4(0xf2),
           },
         },
         {
           $lookup: {
-            from: "assignments",
-            localField: _0x3d33ca(0x176),
-            foreignField: _0x3d33ca(0x14b),
-            as: "assignments",
+            from: _0x705af4(0x116),
+            localField: _0x705af4(0x116),
+            foreignField: _0x705af4(0x148),
+            as: _0x705af4(0x116),
           },
         },
         {
@@ -354,23 +469,23 @@ const { ApiError } = require(_0x298462(0x145)),
           },
         },
       ]);
-    } catch (_0x1a4b08) {
-      throw _0x1a4b08;
+    } catch (_0x13615b) {
+      throw _0x13615b;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x184)] = async (_0x5aa94e) => {
-    const _0x1690c4 = _0x298462;
+  (module[_0x5d3e81(0x136)]["getAllPublicRooms"] = async (_0x4050c7) => {
+    const _0x5108a4 = _0x5d3e81;
     try {
-      _0x5aa94e = parseInt(_0x5aa94e);
-      const _0x22895c = await Room[_0x1690c4(0x168)]([
+      _0x4050c7 = parseInt(_0x4050c7);
+      const _0x344c29 = await Room[_0x5108a4(0xf8)]([
           { $match: { isPinned: !![] } },
           { $sort: { _id: -0x1 } },
           {
             $lookup: {
-              from: _0x1690c4(0x155),
-              localField: _0x1690c4(0x159),
-              foreignField: _0x1690c4(0x14b),
-              as: _0x1690c4(0x159),
+              from: _0x5108a4(0x10a),
+              localField: _0x5108a4(0x13b),
+              foreignField: _0x5108a4(0x148),
+              as: "author",
             },
           },
           {
@@ -379,31 +494,31 @@ const { ApiError } = require(_0x298462(0x145)),
               name: 0x1,
               isPinned: 0x1,
               showName: 0x1,
-              members: { $size: "$members" },
+              members: { $size: _0x5108a4(0x118) },
               status: 0x1,
               author: { _id: 0x1, firstname: 0x1, lastname: 0x1 },
             },
           },
         ]),
-        _0x5dc78d = await Room[_0x1690c4(0x168)]([
-          { $match: { status: _0x1690c4(0x156), isPinned: ![] } },
-          { $skip: _0x5aa94e },
+        _0x4b85b3 = await Room[_0x5108a4(0xf8)]([
+          { $match: { status: _0x5108a4(0x131), isPinned: ![] } },
+          { $skip: _0x4050c7 },
           { $sort: { _id: -0x1 } },
           { $limit: 0xa },
           {
             $lookup: {
-              from: _0x1690c4(0x155),
-              localField: _0x1690c4(0x18a),
-              foreignField: "_id",
-              as: _0x1690c4(0x18a),
+              from: _0x5108a4(0x10a),
+              localField: "members",
+              foreignField: _0x5108a4(0x148),
+              as: _0x5108a4(0x13f),
             },
           },
           {
             $lookup: {
-              from: _0x1690c4(0x155),
-              localField: _0x1690c4(0x159),
-              foreignField: "_id",
-              as: _0x1690c4(0x159),
+              from: _0x5108a4(0x10a),
+              localField: _0x5108a4(0x13b),
+              foreignField: _0x5108a4(0x148),
+              as: _0x5108a4(0x13b),
             },
           },
           {
@@ -422,694 +537,595 @@ const { ApiError } = require(_0x298462(0x145)),
             },
           },
         ]),
-        _0x293e7e = [..._0x22895c, ..._0x5dc78d];
-      if (!_0x293e7e || !_0x293e7e["length"]) {
-        const _0x5b7b0d = httpStatus[_0x1690c4(0x194)],
-          _0x21a68b = errors[_0x1690c4(0x130)]["noRooms"];
-        throw new ApiError(_0x5b7b0d, _0x21a68b);
+        _0x25cf26 = [..._0x344c29, ..._0x4b85b3];
+      if (!_0x25cf26 || !_0x25cf26[_0x5108a4(0x115)]) {
+        const _0xd99282 = httpStatus[_0x5108a4(0x143)],
+          _0x4feadd = errors[_0x5108a4(0x14f)][_0x5108a4(0x123)];
+        throw new ApiError(_0xd99282, _0x4feadd);
       }
-      return _0x293e7e;
-    } catch (_0x312d65) {
-      throw _0x312d65;
+      return _0x25cf26;
+    } catch (_0x3850e1) {
+      throw _0x3850e1;
     }
   }),
-  (module[_0x298462(0x146)]["createRoom"] = async (_0x5e877d) => {
-    const _0x289eeb = _0x298462;
+  (module["exports"][_0x5d3e81(0x11c)] = async (_0x585a0d) => {
+    const _0x1b4424 = _0x5d3e81;
     try {
-      const _0x3d99ef = _0x5e877d["user"],
+      const _0x36084e = _0x585a0d[_0x1b4424(0x103)],
         {
-          name: _0x189033,
-          status: _0x4ba5fd,
-          code: _0x13bf70,
-        } = _0x5e877d[_0x289eeb(0x18e)];
-      if (_0x3d99ef["createdRooms"][_0x289eeb(0x149)] === 0xa) {
-        const _0x2404ba = httpStatus["FORBIDDEN"],
-          _0x3bdc11 = errors[_0x289eeb(0x193)][_0x289eeb(0x13d)];
-        throw new ApiError(_0x2404ba, _0x3bdc11);
+          name: _0x55124c,
+          status: _0x20e0a9,
+          code: _0x1c5d88,
+        } = _0x585a0d[_0x1b4424(0x10b)];
+      if (_0x36084e[_0x1b4424(0x122)]["length"] === 0xa) {
+        const _0x1ef7d9 = httpStatus["FORBIDDEN"],
+          _0x2f119d = errors[_0x1b4424(0x103)]["reachedMaximumRooms"];
+        throw new ApiError(_0x1ef7d9, _0x2f119d);
       }
-      const _0x5e0677 = {
-          name: _0x189033,
-          author: _0x3d99ef[_0x289eeb(0x14b)],
-          status: _0x4ba5fd,
-          code: _0x13bf70,
+      const _0x372a29 = {
+          name: _0x55124c,
+          author: _0x36084e[_0x1b4424(0x148)],
+          status: _0x20e0a9,
+          code: _0x1c5d88,
         },
-        _0x280407 = {
-          name: _0x189033,
-          author: _0x3d99ef["_id"],
-          status: _0x4ba5fd,
+        _0x316752 = {
+          name: _0x55124c,
+          author: _0x36084e["_id"],
+          status: _0x20e0a9,
         },
-        _0x21618b =
-          _0x4ba5fd === _0x289eeb(0x12e) &&
-          (!_0x13bf70 ||
-            _0x13bf70[_0x289eeb(0x149)] < 0x1 ||
-            _0x13bf70[_0x289eeb(0x149)] > 0x10);
-      if (_0x21618b) {
-        const _0x25b920 = httpStatus["BAD_REQUEST"],
-          _0x168af6 = errors["rooms"]["invalidCode"];
-        throw new ApiError(_0x25b920, _0x168af6);
+        _0x204022 =
+          _0x20e0a9 === _0x1b4424(0xf4) &&
+          (!_0x1c5d88 ||
+            _0x1c5d88["length"] < 0x1 ||
+            _0x1c5d88[_0x1b4424(0x115)] > 0x10);
+      if (_0x204022) {
+        const _0x459352 = httpStatus["BAD_REQUEST"],
+          _0x41fa65 = errors["rooms"][_0x1b4424(0x11d)];
+        throw new ApiError(_0x459352, _0x41fa65);
       }
-      const _0xc18f64 = new Room(
-          _0x4ba5fd === _0x289eeb(0x12e) ? _0x5e0677 : _0x280407
+      const _0x170384 = new Room(
+          _0x20e0a9 === _0x1b4424(0xf4) ? _0x372a29 : _0x316752
         ),
-        _0x16f33b = await _0xc18f64["save"]();
-      _0x3d99ef[_0x289eeb(0x14e)][_0x289eeb(0x151)](_0xc18f64["_id"]),
-        await _0x3d99ef["save"]();
-      const _0x57046f = await this["getMappedRooms"]([_0x16f33b["_id"]]);
-      return _0x57046f[0x0];
-    } catch (_0xd95b10) {
-      throw _0xd95b10;
-    }
-  }),
-  (module[_0x298462(0x146)][_0x298462(0x12f)] = async (_0x22572c) => {
-    const _0xaf1a4d = _0x298462;
-    try {
-      const _0xe2da95 = _0x22572c[_0xaf1a4d(0x193)],
-        { roomId: _0x25a489, userIds: _0x32b4f1 } = _0x22572c["body"],
-        _0x13687a = await this[_0xaf1a4d(0x138)](_0x25a489);
-      if (!_0x13687a) {
-        const _0x250176 = httpStatus["NOT_FOUND"],
-          _0xc28b63 = errors[_0xaf1a4d(0x130)][_0xaf1a4d(0x148)];
-        throw new ApiError(_0x250176, _0xc28b63);
-      }
-      if (
-        _0x13687a[_0xaf1a4d(0x159)][_0xaf1a4d(0x187)]() !==
-        _0xe2da95[_0xaf1a4d(0x14b)][_0xaf1a4d(0x187)]()
-      ) {
-        const _0x3807ab = httpStatus[_0xaf1a4d(0x16b)],
-          _0x427eab = errors["rooms"][_0xaf1a4d(0x134)];
-        throw new ApiError(_0x3807ab, _0x427eab);
-      }
-      _0x32b4f1[_0xaf1a4d(0x15f)]((_0x90fec4) =>
-        _0x13687a[_0xaf1a4d(0x18d)]["unshift"](_0x90fec4)
+        _0x5e4883 = await _0x170384[_0x1b4424(0x140)]();
+      _0x36084e[_0x1b4424(0x122)][_0x1b4424(0x120)](
+        _0x170384[_0x1b4424(0x148)]
       ),
-        await _0x13687a[_0xaf1a4d(0x17c)]();
-      const _0xeb67b8 = await this[_0xaf1a4d(0x15e)]([_0x13687a["_id"]]);
-      return _0xeb67b8[0x0];
-    } catch (_0x56db8c) {
-      throw _0x56db8c;
+        await _0x36084e["save"]();
+      const _0x2ca742 = await this["getMappedRooms"]([
+        _0x5e4883[_0x1b4424(0x148)],
+      ]);
+      return _0x2ca742[0x0];
+    } catch (_0x27f220) {
+      throw _0x27f220;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x158)] = async (_0x4be0cd) => {
-    const _0x2a55b2 = _0x298462;
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x110)] = async (_0x59df9b) => {
+    const _0x400804 = _0x5d3e81;
     try {
-      const _0x3ad2c8 = _0x4be0cd["user"],
-        { roomId: _0x452d49, userIds: _0x5d9b21 } = _0x4be0cd[_0x2a55b2(0x18e)],
-        _0x211aa8 = await this[_0x2a55b2(0x138)](_0x452d49);
-      if (!_0x211aa8) {
-        const _0xf6af29 = httpStatus["NOT_FOUND"],
-          _0x28daef = errors[_0x2a55b2(0x130)][_0x2a55b2(0x148)];
-        throw new ApiError(_0xf6af29, _0x28daef);
+      const _0x46853d = _0x59df9b["user"],
+        { roomId: _0x2f21f3, userIds: _0xa7a90f } = _0x59df9b[_0x400804(0x10b)],
+        _0x21011e = await this["findRoomById"](_0x2f21f3);
+      if (!_0x21011e) {
+        const _0x46520d = httpStatus[_0x400804(0x143)],
+          _0x3eb75a = errors[_0x400804(0x14f)][_0x400804(0x144)];
+        throw new ApiError(_0x46520d, _0x3eb75a);
       }
       if (
-        _0x211aa8[_0x2a55b2(0x159)][_0x2a55b2(0x187)]() !==
-        _0x3ad2c8["_id"]["toString"]()
+        _0x21011e[_0x400804(0x13b)]["toString"]() !==
+        _0x46853d[_0x400804(0x148)]["toString"]()
       ) {
-        const _0x1e309e = httpStatus[_0x2a55b2(0x16b)],
-          _0x1fd8d9 = errors[_0x2a55b2(0x130)][_0x2a55b2(0x134)];
-        throw new ApiError(_0x1e309e, _0x1fd8d9);
+        const _0x2a317a = httpStatus["UNAUTHORIZED"],
+          _0x54db84 = errors[_0x400804(0x14f)][_0x400804(0x11f)];
+        throw new ApiError(_0x2a317a, _0x54db84);
       }
-      (_0x211aa8[_0x2a55b2(0x18d)] = _0x211aa8[_0x2a55b2(0x18d)]["filter"](
-        (_0x115175) => !_0x5d9b21[_0x2a55b2(0x154)](_0x115175)
+      _0xa7a90f[_0x400804(0x14b)]((_0x258982) =>
+        _0x21011e["blockList"]["unshift"](_0x258982)
+      ),
+        await _0x21011e["save"]();
+      const _0x361af1 = await this[_0x400804(0x10e)]([
+        _0x21011e[_0x400804(0x148)],
+      ]);
+      return _0x361af1[0x0];
+    } catch (_0x489e1d) {
+      throw _0x489e1d;
+    }
+  }),
+  (module[_0x5d3e81(0x136)]["unblockUsersFromChatting"] = async (_0x187b40) => {
+    const _0x4bd358 = _0x5d3e81;
+    try {
+      const _0x5212ac = _0x187b40["user"],
+        { roomId: _0x128418, userIds: _0x1fd20a } = _0x187b40["body"],
+        _0x3bbd0d = await this[_0x4bd358(0x10d)](_0x128418);
+      if (!_0x3bbd0d) {
+        const _0x24cc85 = httpStatus["NOT_FOUND"],
+          _0x2dc074 = errors[_0x4bd358(0x14f)][_0x4bd358(0x144)];
+        throw new ApiError(_0x24cc85, _0x2dc074);
+      }
+      if (
+        _0x3bbd0d["author"][_0x4bd358(0xf9)]() !==
+        _0x5212ac[_0x4bd358(0x148)][_0x4bd358(0xf9)]()
+      ) {
+        const _0x366e5e = httpStatus["UNAUTHORIZED"],
+          _0x433a92 = errors["rooms"][_0x4bd358(0x11f)];
+        throw new ApiError(_0x366e5e, _0x433a92);
+      }
+      (_0x3bbd0d["blockList"] = _0x3bbd0d["blockList"][_0x4bd358(0x114)](
+        (_0xd76cd8) => !_0x1fd20a[_0x4bd358(0x130)](_0xd76cd8)
       )),
-        await _0x211aa8["save"]();
-      const _0x4cd532 = await this[_0x2a55b2(0x15e)]([
-        _0x211aa8[_0x2a55b2(0x14b)],
+        await _0x3bbd0d[_0x4bd358(0x140)]();
+      const _0x2fb924 = await this[_0x4bd358(0x10e)]([
+        _0x3bbd0d[_0x4bd358(0x148)],
       ]);
-      return _0x4cd532[0x0];
-    } catch (_0x4b1f61) {
-      throw _0x4b1f61;
+      return _0x2fb924[0x0];
+    } catch (_0x53fc88) {
+      throw _0x53fc88;
     }
   }),
-  (module["exports"][_0x298462(0x17b)] = async (_0x89a087, _0x1804c6) => {
-    const _0x9e23f1 = _0x298462;
-    try {
-      const _0xb15558 = await this["findRoomById"](_0x1804c6);
-      if (!_0xb15558) {
-        const _0x1e6814 = httpStatus[_0x9e23f1(0x194)],
-          _0x42f917 = errors[_0x9e23f1(0x130)][_0x9e23f1(0x148)];
-        throw new ApiError(_0x1e6814, _0x42f917);
-      }
-      if (
-        _0xb15558[_0x9e23f1(0x159)][_0x9e23f1(0x187)]() !==
-        _0x89a087[_0x9e23f1(0x14b)]["toString"]()
-      ) {
-        const _0xcdd950 = httpStatus[_0x9e23f1(0x16b)],
-          _0x490ad5 = errors[_0x9e23f1(0x130)][_0x9e23f1(0x134)];
-        throw new ApiError(_0xcdd950, _0x490ad5);
-      }
-      await this[_0x9e23f1(0x192)](_0xb15558["_id"]);
-      const _0x422d0b = await this[_0x9e23f1(0x15e)]([
-        _0xb15558[_0x9e23f1(0x14b)],
-      ]);
-      return _0x422d0b[0x0];
-    } catch (_0x4045e8) {
-      throw _0x4045e8;
-    }
-  }),
-  (module[_0x298462(0x146)]["deleteRoomMessages"] = async (
-    _0x53c214,
-    _0x1a620d
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x137)] = async (
+    _0x4df23d,
+    _0x4fb14d
   ) => {
-    const _0x5c8b6e = _0x298462;
+    const _0x223415 = _0x5d3e81;
     try {
-      const _0x20e3f8 = await this["findRoomById"](_0x1a620d);
-      if (!_0x20e3f8) {
-        const _0x96d3d7 = httpStatus[_0x5c8b6e(0x194)],
-          _0x38d741 = errors[_0x5c8b6e(0x130)]["notFound"];
-        throw new ApiError(_0x96d3d7, _0x38d741);
+      const _0x4b96ae = await this[_0x223415(0x10d)](_0x4fb14d);
+      if (!_0x4b96ae) {
+        const _0x48f0c1 = httpStatus["NOT_FOUND"],
+          _0x5162e3 = errors[_0x223415(0x14f)][_0x223415(0x144)];
+        throw new ApiError(_0x48f0c1, _0x5162e3);
       }
       if (
-        _0x20e3f8[_0x5c8b6e(0x159)][_0x5c8b6e(0x187)]() !==
-        _0x53c214[_0x5c8b6e(0x14b)]["toString"]()
+        _0x4b96ae["author"]["toString"]() !==
+        _0x4df23d[_0x223415(0x148)][_0x223415(0xf9)]()
       ) {
-        const _0x1cb78a = httpStatus[_0x5c8b6e(0x16b)],
-          _0x551a9a = errors[_0x5c8b6e(0x130)][_0x5c8b6e(0x134)];
-        throw new ApiError(_0x1cb78a, _0x551a9a);
+        const _0x291a06 = httpStatus[_0x223415(0x11b)],
+          _0x23f387 = errors["rooms"][_0x223415(0x11f)];
+        throw new ApiError(_0x291a06, _0x23f387);
       }
-      const _0x1a3ca7 = await Message[_0x5c8b6e(0x160)]({
-        receiver: _0x20e3f8["_id"],
-      });
-      _0x1a3ca7["forEach"](async (_0x201d0d) => {
-        const _0x3267a3 = _0x5c8b6e;
-        _0x201d0d[_0x3267a3(0x164)][_0x3267a3(0x137)] &&
-          (await localStorage[_0x3267a3(0x13c)](
-            _0x201d0d[_0x3267a3(0x164)][_0x3267a3(0x137)]
-          )),
-          await _0x201d0d[_0x3267a3(0x161)]();
-      });
-      const _0x53377a = await this[_0x5c8b6e(0x15e)]([
-        _0x20e3f8[_0x5c8b6e(0x14b)],
+      await this[_0x223415(0x11e)](_0x4b96ae[_0x223415(0x148)]);
+      const _0x40b705 = await this[_0x223415(0x10e)]([
+        _0x4b96ae[_0x223415(0x148)],
       ]);
-      return _0x53377a[0x0];
-    } catch (_0x39117e) {
-      throw _0x39117e;
+      return _0x40b705[0x0];
+    } catch (_0x239bb8) {
+      throw _0x239bb8;
     }
   }),
-  (module[_0x298462(0x146)]["addPinnedMessage"] = async (_0x5a4092) => {
-    const _0x570f75 = _0x298462;
+  (module[_0x5d3e81(0x136)]["deleteRoomMessages"] = async (
+    _0x2960f2,
+    _0x57aab1
+  ) => {
+    const _0x4e6b42 = _0x5d3e81;
     try {
-      const _0x14f8b8 = _0x5a4092[_0x570f75(0x193)],
-        {
-          type: _0x877695,
-          roomId: _0x16ed32,
-          text: _0xf1b02d,
-          date: _0x541790,
-          displayName: _0x4cad75,
-        } = _0x5a4092[_0x570f75(0x18e)],
-        _0x1de0f5 = _0x5a4092?.[_0x570f75(0x15a)]?.[_0x570f75(0x164)];
-      if (!MESSAGE_TYPES[_0x570f75(0x154)](_0x877695)) {
-        const _0x1f93ea = httpStatus[_0x570f75(0x139)],
-          _0x5a3f1f = errors[_0x570f75(0x16c)][_0x570f75(0x150)];
-        throw new ApiError(_0x1f93ea, _0x5a3f1f);
-      }
-      const _0x35c1cb = await this[_0x570f75(0x138)](_0x16ed32);
-      if (!_0x35c1cb) {
-        const _0x4290f5 = httpStatus[_0x570f75(0x194)],
-          _0x3c9b04 = errors["rooms"][_0x570f75(0x148)];
-        throw new ApiError(_0x4290f5, _0x3c9b04);
+      const _0x167656 = await this[_0x4e6b42(0x10d)](_0x57aab1);
+      if (!_0x167656) {
+        const _0x2333e1 = httpStatus[_0x4e6b42(0x143)],
+          _0x1f066f = errors["rooms"][_0x4e6b42(0x144)];
+        throw new ApiError(_0x2333e1, _0x1f066f);
       }
       if (
-        _0x35c1cb["author"]["toString"]() !==
-        _0x14f8b8["_id"][_0x570f75(0x187)]()
+        _0x167656[_0x4e6b42(0x13b)][_0x4e6b42(0xf9)]() !==
+        _0x2960f2[_0x4e6b42(0x148)]["toString"]()
       ) {
-        const _0x28e551 = httpStatus[_0x570f75(0x16b)],
-          _0x385255 = errors[_0x570f75(0x130)][_0x570f75(0x134)];
-        throw new ApiError(_0x28e551, _0x385255);
+        const _0x4e7e42 = httpStatus[_0x4e6b42(0x11b)],
+          _0x26deca = errors[_0x4e6b42(0x14f)][_0x4e6b42(0x11f)];
+        throw new ApiError(_0x4e7e42, _0x26deca);
       }
-      const _0xec1137 = await messagesService["createMessage"](
-        _0x14f8b8,
-        _0x877695,
-        _0xf1b02d,
-        _0x16ed32,
-        _0x1de0f5,
-        _0x4cad75,
-        _0x541790,
+      const _0x28b1c5 = await Message[_0x4e6b42(0xfc)]({
+        receiver: _0x167656[_0x4e6b42(0x148)],
+      });
+      _0x28b1c5[_0x4e6b42(0x14b)](async (_0x58a943) => {
+        const _0x418a1d = _0x4e6b42;
+        _0x58a943[_0x418a1d(0xf7)]["url"] &&
+          (await localStorage[_0x418a1d(0x14a)](
+            _0x58a943[_0x418a1d(0xf7)][_0x418a1d(0x145)]
+          )),
+          await _0x58a943["deleteOne"]();
+      });
+      const _0x50b938 = await this[_0x4e6b42(0x10e)]([
+        _0x167656[_0x4e6b42(0x148)],
+      ]);
+      return _0x50b938[0x0];
+    } catch (_0x2a6905) {
+      throw _0x2a6905;
+    }
+  }),
+  (module["exports"][_0x5d3e81(0x12f)] = async (_0x2ff8fd) => {
+    const _0x29f051 = _0x5d3e81;
+    try {
+      const _0x4d83c8 = _0x2ff8fd["user"],
+        {
+          type: _0x2f7ab6,
+          roomId: _0x25baea,
+          text: _0x1c4324,
+          date: _0x2f9a10,
+          displayName: _0x353cd4,
+        } = _0x2ff8fd[_0x29f051(0x10b)],
+        _0x5114a4 = _0x2ff8fd?.[_0x29f051(0x126)]?.[_0x29f051(0xf7)];
+      if (!MESSAGE_TYPES[_0x29f051(0x130)](_0x2f7ab6)) {
+        const _0x28b505 = httpStatus[_0x29f051(0xfb)],
+          _0x16f60f = errors[_0x29f051(0x139)]["invalidType"];
+        throw new ApiError(_0x28b505, _0x16f60f);
+      }
+      const _0x390b16 = await this[_0x29f051(0x10d)](_0x25baea);
+      if (!_0x390b16) {
+        const _0x3be233 = httpStatus["NOT_FOUND"],
+          _0x1859a5 = errors[_0x29f051(0x14f)]["notFound"];
+        throw new ApiError(_0x3be233, _0x1859a5);
+      }
+      if (
+        _0x390b16[_0x29f051(0x13b)][_0x29f051(0xf9)]() !==
+        _0x4d83c8["_id"]["toString"]()
+      ) {
+        const _0x361d76 = httpStatus[_0x29f051(0x11b)],
+          _0x469068 = errors["rooms"][_0x29f051(0x11f)];
+        throw new ApiError(_0x361d76, _0x469068);
+      }
+      const _0xf10c31 = await messagesService[_0x29f051(0x133)](
+        _0x4d83c8,
+        _0x2f7ab6,
+        _0x1c4324,
+        _0x25baea,
+        _0x5114a4,
+        _0x353cd4,
+        _0x2f9a10,
         ![],
         null,
         !![]
       );
-      _0x35c1cb["pinnedMessages"]["unshift"](_0xec1137["_id"]),
-        await _0x35c1cb[_0x570f75(0x17c)]();
-      const _0x142d93 = await this[_0x570f75(0x15e)]([
-        _0x35c1cb[_0x570f75(0x14b)],
+      _0x390b16["pinnedMessages"][_0x29f051(0x120)](_0xf10c31["_id"]),
+        await _0x390b16[_0x29f051(0x140)]();
+      const _0x5bbe2 = await this["getMappedRooms"]([
+        _0x390b16[_0x29f051(0x148)],
       ]);
-      return _0x142d93[0x0];
-    } catch (_0x35c85b) {
-      throw _0x35c85b;
+      return _0x5bbe2[0x0];
+    } catch (_0x28cfc5) {
+      throw _0x28cfc5;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x179)] = async (_0x399298) => {
-    const _0x10720d = _0x298462;
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x107)] = async (_0x223656) => {
+    const _0xb450b4 = _0x5d3e81;
     try {
-      const _0xa7f56c = _0x399298["user"],
-        { name: _0x46478f, code: _0x574bcf } = _0x399298[_0x10720d(0x175)],
-        _0x109517 = await this[_0x10720d(0x173)](_0x46478f);
-      if (!_0x109517) {
-        const _0xec091b = httpStatus[_0x10720d(0x194)],
-          _0x1310aa = errors[_0x10720d(0x130)]["notFound"];
-        throw new ApiError(_0xec091b, _0x1310aa);
+      const _0x391f0d = _0x223656[_0xb450b4(0x103)],
+        { name: _0x288ce1, code: _0x27ef5e } = _0x223656["query"],
+        _0x4ca0ff = await this[_0xb450b4(0x12a)](_0x288ce1);
+      if (!_0x4ca0ff) {
+        const _0x400b9a = httpStatus[_0xb450b4(0x143)],
+          _0x3a2af6 = errors[_0xb450b4(0x14f)][_0xb450b4(0x144)];
+        throw new ApiError(_0x400b9a, _0x3a2af6);
       }
-      const _0x5c7a6f =
-        _0x109517["status"] === _0x10720d(0x12e) &&
-        (!_0x574bcf ||
-          _0x574bcf[_0x10720d(0x149)] < 0x1 ||
-          _0x574bcf["length"] > 0x10);
-      if (_0x5c7a6f) {
-        const _0x5580d9 = httpStatus[_0x10720d(0x139)],
-          _0x2973a5 = errors[_0x10720d(0x130)][_0x10720d(0x132)];
-        throw new ApiError(_0x5580d9, _0x2973a5);
-      }
-      if (
-        _0x109517[_0x10720d(0x17a)] === _0x10720d(0x12e) &&
-        _0x109517[_0x10720d(0x189)] !== _0x574bcf
-      ) {
-        const _0x4e927d = httpStatus[_0x10720d(0x139)],
-          _0xeaeff8 = errors[_0x10720d(0x130)][_0x10720d(0x180)];
-        throw new ApiError(_0x4e927d, _0xeaeff8);
+      const _0x149667 =
+        _0x4ca0ff[_0xb450b4(0x106)] === _0xb450b4(0xf4) &&
+        (!_0x27ef5e ||
+          _0x27ef5e[_0xb450b4(0x115)] < 0x1 ||
+          _0x27ef5e[_0xb450b4(0x115)] > 0x10);
+      if (_0x149667) {
+        const _0x398f80 = httpStatus[_0xb450b4(0xfb)],
+          _0x113355 = errors[_0xb450b4(0x14f)][_0xb450b4(0x11d)];
+        throw new ApiError(_0x398f80, _0x113355);
       }
       if (
-        _0x109517["author"][_0x10720d(0x187)]() ===
-        _0xa7f56c[_0x10720d(0x14b)][_0x10720d(0x187)]()
+        _0x4ca0ff[_0xb450b4(0x106)] === _0xb450b4(0xf4) &&
+        _0x4ca0ff[_0xb450b4(0xfa)] !== _0x27ef5e
       ) {
-        const _0x29132e = httpStatus[_0x10720d(0x181)],
-          _0x546c0e = errors[_0x10720d(0x130)][_0x10720d(0x157)];
-        throw new ApiError(_0x29132e, _0x546c0e);
+        const _0x3d7f35 = httpStatus[_0xb450b4(0xfb)],
+          _0x127355 = errors[_0xb450b4(0x14f)][_0xb450b4(0x13c)];
+        throw new ApiError(_0x3d7f35, _0x127355);
       }
-      const _0x49368a =
-        _0xa7f56c["joinedRooms"][_0x10720d(0x154)](
-          _0x109517[_0x10720d(0x14b)][_0x10720d(0x187)]()
+      if (
+        _0x4ca0ff["author"][_0xb450b4(0xf9)]() ===
+        _0x391f0d[_0xb450b4(0x148)][_0xb450b4(0xf9)]()
+      ) {
+        const _0x307ce1 = httpStatus[_0xb450b4(0x125)],
+          _0x4ef257 = errors[_0xb450b4(0x14f)][_0xb450b4(0x151)];
+        throw new ApiError(_0x307ce1, _0x4ef257);
+      }
+      const _0x384889 =
+        _0x391f0d[_0xb450b4(0xf0)][_0xb450b4(0x130)](
+          _0x4ca0ff[_0xb450b4(0x148)][_0xb450b4(0xf9)]()
         ) &&
-        _0x109517["members"][_0x10720d(0x154)](
-          _0xa7f56c[_0x10720d(0x14b)][_0x10720d(0x187)]()
+        _0x4ca0ff["members"]["includes"](
+          _0x391f0d[_0xb450b4(0x148)][_0xb450b4(0xf9)]()
         );
-      if (_0x49368a) {
-        const _0x2efe00 = httpStatus["BAD_REQUEST"],
-          _0x166274 = errors[_0x10720d(0x130)][_0x10720d(0x157)];
-        throw new ApiError(_0x2efe00, _0x166274);
+      if (_0x384889) {
+        const _0x3c13c4 = httpStatus["BAD_REQUEST"],
+          _0x43907d = errors[_0xb450b4(0x14f)][_0xb450b4(0x151)];
+        throw new ApiError(_0x3c13c4, _0x43907d);
       }
-      _0x109517[_0x10720d(0x18a)][_0x10720d(0x151)](
-        _0xa7f56c[_0x10720d(0x14b)]
+      _0x4ca0ff[_0xb450b4(0x13f)][_0xb450b4(0x120)](
+        _0x391f0d[_0xb450b4(0x148)]
       ),
-        _0xa7f56c[_0x10720d(0x142)][_0x10720d(0x151)](
-          _0x109517[_0x10720d(0x14b)]
+        _0x391f0d[_0xb450b4(0xf0)][_0xb450b4(0x120)](
+          _0x4ca0ff[_0xb450b4(0x148)]
         ),
-        await _0xa7f56c[_0x10720d(0x17c)](),
-        await _0x109517[_0x10720d(0x17c)]();
-      const _0x5d35fe = await this[_0x10720d(0x15e)]([_0x109517["_id"]]);
-      return _0x5d35fe[0x0];
-    } catch (_0x439e60) {
-      throw _0x439e60;
+        await _0x391f0d[_0xb450b4(0x140)](),
+        await _0x4ca0ff[_0xb450b4(0x140)]();
+      const _0x3c6e38 = await this[_0xb450b4(0x10e)]([
+        _0x4ca0ff[_0xb450b4(0x148)],
+      ]);
+      return _0x3c6e38[0x0];
+    } catch (_0x145bca) {
+      throw _0x145bca;
     }
   }),
-  (module["exports"][_0x298462(0x13f)] = async (
-    _0x5bf1eb,
-    _0x24516f,
-    _0x5a1e30
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x14d)] = async (
+    _0x5054c6,
+    _0x399d57,
+    _0x18e95f
   ) => {
-    const _0x5a90ee = _0x298462;
+    const _0x5d10be = _0x5d3e81;
     try {
-      const _0x3a44f6 = await Room[_0x5a90ee(0x143)](_0x24516f);
-      if (!_0x3a44f6) {
-        const _0x1040c2 = httpStatus[_0x5a90ee(0x194)],
-          _0x334a30 = errors["rooms"]["notFound"];
-        throw new ApiError(_0x1040c2, _0x334a30);
+      const _0x61e3e1 = await Room[_0x5d10be(0x128)](_0x399d57);
+      if (!_0x61e3e1) {
+        const _0x120f4d = httpStatus[_0x5d10be(0x143)],
+          _0x4527ab = errors[_0x5d10be(0x14f)]["notFound"];
+        throw new ApiError(_0x120f4d, _0x4527ab);
       }
       if (
-        _0x3a44f6[_0x5a90ee(0x159)][_0x5a90ee(0x187)]() !==
-        _0x5bf1eb["_id"]["toString"]()
+        _0x61e3e1[_0x5d10be(0x13b)][_0x5d10be(0xf9)]() !==
+        _0x5054c6[_0x5d10be(0x148)][_0x5d10be(0xf9)]()
       ) {
-        const _0x1c71df = httpStatus[_0x5a90ee(0x153)],
-          _0x35823b = errors[_0x5a90ee(0x130)][_0x5a90ee(0x134)];
-        throw new ApiError(_0x1c71df, _0x35823b);
+        const _0x597db1 = httpStatus["FORBIDDEN"],
+          _0x5c6bf7 = errors["rooms"][_0x5d10be(0x11f)];
+        throw new ApiError(_0x597db1, _0x5c6bf7);
       }
       return (
-        (_0x3a44f6[_0x5a90ee(0x18a)] = _0x3a44f6["members"][_0x5a90ee(0x16e)](
-          (_0x274270) =>
-            !_0x5a1e30[_0x5a90ee(0x154)](_0x274270[_0x5a90ee(0x187)]())
-        )),
-        await usersService[_0x5a90ee(0x136)](_0x5a1e30, _0x24516f),
-        await _0x3a44f6[_0x5a90ee(0x17c)]()
+        (_0x61e3e1[_0x5d10be(0x13f)] = _0x61e3e1[_0x5d10be(0x13f)][
+          _0x5d10be(0x114)
+        ]((_0x4ad865) => !_0x18e95f["includes"](_0x4ad865[_0x5d10be(0xf9)]()))),
+        await usersService[_0x5d10be(0x101)](_0x18e95f, _0x399d57),
+        await _0x61e3e1["save"]()
       );
-    } catch (_0x19bbab) {
-      throw _0x19bbab;
+    } catch (_0x43ff0b) {
+      throw _0x43ff0b;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x18b)] = async (
-    _0xa7502c,
-    _0x3ac3e2
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x119)] = async (
+    _0xb8dfab,
+    _0x476baf
   ) => {
-    const _0xb8e03d = _0x298462;
+    const _0x25f558 = _0x5d3e81;
     try {
-      const _0xa0cc21 = await Room[_0xb8e03d(0x143)](_0x3ac3e2);
-      if (!_0xa0cc21) {
-        const _0xa78b62 = httpStatus[_0xb8e03d(0x194)],
-          _0x5704c0 = errors[_0xb8e03d(0x130)][_0xb8e03d(0x148)];
-        throw new ApiError(_0xa78b62, _0x5704c0);
+      const _0x209045 = await Room[_0x25f558(0x128)](_0x476baf);
+      if (!_0x209045) {
+        const _0x5cd9ea = httpStatus[_0x25f558(0x143)],
+          _0x1da437 = errors[_0x25f558(0x14f)][_0x25f558(0x144)];
+        throw new ApiError(_0x5cd9ea, _0x1da437);
       }
       if (
-        _0xa0cc21[_0xb8e03d(0x159)][_0xb8e03d(0x187)]() !==
-        _0xa7502c[_0xb8e03d(0x14b)][_0xb8e03d(0x187)]()
+        _0x209045[_0x25f558(0x13b)]["toString"]() !==
+        _0xb8dfab[_0x25f558(0x148)][_0x25f558(0xf9)]()
       ) {
-        const _0x357122 = httpStatus["FORBIDDEN"],
-          _0x871af = errors[_0xb8e03d(0x130)][_0xb8e03d(0x134)];
-        throw new ApiError(_0x357122, _0x871af);
+        const _0x2211ca = httpStatus[_0x25f558(0x129)],
+          _0xf7a127 = errors[_0x25f558(0x14f)]["unauthorized"];
+        throw new ApiError(_0x2211ca, _0xf7a127);
       }
       return (
-        (_0xa0cc21[_0xb8e03d(0x140)] = !_0xa0cc21[_0xb8e03d(0x140)]),
-        await _0xa0cc21[_0xb8e03d(0x17c)]()
+        (_0x209045[_0x25f558(0x12e)] = !_0x209045[_0x25f558(0x12e)]),
+        await _0x209045[_0x25f558(0x140)]()
       );
-    } catch (_0x337259) {
-      throw _0x337259;
+    } catch (_0x527521) {
+      throw _0x527521;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x178)] = async (
-    _0x28fad4,
-    _0x46665b
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x14c)] = async (
+    _0x5453e6,
+    _0x1974e7
   ) => {
-    const _0xa9a28a = _0x298462;
+    const _0x51d2c1 = _0x5d3e81;
     try {
-      const _0x26d147 = await Room[_0xa9a28a(0x143)](_0x28fad4);
-      if (!_0x26d147) {
-        const _0x22e424 = httpStatus[_0xa9a28a(0x194)],
-          _0x4ff0e1 = errors[_0xa9a28a(0x130)][_0xa9a28a(0x148)];
-        throw new ApiError(_0x22e424, _0x4ff0e1);
+      const _0x5029e7 = await Room[_0x51d2c1(0x128)](_0x5453e6);
+      if (!_0x5029e7) {
+        const _0x2962f9 = httpStatus["NOT_FOUND"],
+          _0x590733 = errors[_0x51d2c1(0x14f)][_0x51d2c1(0x144)];
+        throw new ApiError(_0x2962f9, _0x590733);
       }
       if (
-        _0x26d147[_0xa9a28a(0x159)][_0xa9a28a(0x187)]() !==
-        _0x46665b[_0xa9a28a(0x14b)][_0xa9a28a(0x187)]()
+        _0x5029e7[_0x51d2c1(0x13b)][_0x51d2c1(0xf9)]() !==
+        _0x1974e7["_id"]["toString"]()
       ) {
-        const _0x51eeb8 = httpStatus[_0xa9a28a(0x153)],
-          _0x35c0e4 = errors["rooms"][_0xa9a28a(0x134)];
-        throw new ApiError(_0x51eeb8, _0x35c0e4);
+        const _0x1600d8 = httpStatus[_0x51d2c1(0x129)],
+          _0x2d19b8 = errors[_0x51d2c1(0x14f)][_0x51d2c1(0x11f)];
+        throw new ApiError(_0x1600d8, _0x2d19b8);
       }
       return (
-        (_0x26d147["chatDisabled"] = !_0x26d147[_0xa9a28a(0x15d)]),
-        await _0x26d147[_0xa9a28a(0x17c)]()
+        (_0x5029e7[_0x51d2c1(0x14e)] = !_0x5029e7[_0x51d2c1(0x14e)]),
+        await _0x5029e7[_0x51d2c1(0x140)]()
       );
-    } catch (_0xf50990) {
-      throw _0xf50990;
+    } catch (_0x5ac5a5) {
+      throw _0x5ac5a5;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x18c)] = async (
-    _0x2b8d09,
-    _0x12ab34,
-    _0x28cd8f
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x105)] = async (
+    _0x5afc18,
+    _0x19bc0b,
+    _0x47f531
   ) => {
-    const _0x2714ec = _0x298462;
+    const _0x300a8b = _0x5d3e81;
     try {
-      const _0x4b01c3 = await Room[_0x2714ec(0x143)](_0x2b8d09);
-      if (!_0x4b01c3) {
-        const _0x5345a8 = httpStatus[_0x2714ec(0x194)],
-          _0x35bb9f = errors[_0x2714ec(0x130)]["notFound"];
-        throw new ApiError(_0x5345a8, _0x35bb9f);
+      const _0x3ff3ca = await Room["findById"](_0x5afc18);
+      if (!_0x3ff3ca) {
+        const _0x4e2361 = httpStatus[_0x300a8b(0x143)],
+          _0x52c6d8 = errors[_0x300a8b(0x14f)][_0x300a8b(0x144)];
+        throw new ApiError(_0x4e2361, _0x52c6d8);
       }
       if (
-        _0x4b01c3[_0x2714ec(0x159)]["toString"]() !==
-        _0x12ab34["_id"]["toString"]()
+        _0x3ff3ca["author"][_0x300a8b(0xf9)]() !==
+        _0x19bc0b["_id"][_0x300a8b(0xf9)]()
       ) {
-        const _0x263fd5 = httpStatus[_0x2714ec(0x153)],
-          _0x31f9d7 = errors[_0x2714ec(0x130)][_0x2714ec(0x134)];
-        throw new ApiError(_0x263fd5, _0x31f9d7);
+        const _0xbe4ade = httpStatus[_0x300a8b(0x129)],
+          _0x203f55 = errors[_0x300a8b(0x14f)][_0x300a8b(0x11f)];
+        throw new ApiError(_0xbe4ade, _0x203f55);
       }
       return (
-        (_0x4b01c3[_0x2714ec(0x15b)] = _0x28cd8f),
-        await _0x4b01c3[_0x2714ec(0x17c)](),
-        _0x4b01c3
+        (_0x3ff3ca[_0x300a8b(0x132)] = _0x47f531),
+        await _0x3ff3ca["save"](),
+        _0x3ff3ca
       );
-    } catch (_0x235f60) {
-      throw _0x235f60;
+    } catch (_0x3741b0) {
+      throw _0x3741b0;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x192)] = async (_0x1f1297) => {
-    const _0x4ec07f = _0x298462;
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x11e)] = async (_0x48d28c) => {
+    const _0x526d52 = _0x5d3e81;
     try {
-      const _0x44eaac = await Room["findById"](_0x1f1297);
-      if (!_0x44eaac) {
-        const _0x3fee57 = httpStatus[_0x4ec07f(0x194)],
-          _0x3011e4 = errors[_0x4ec07f(0x130)][_0x4ec07f(0x148)];
-        throw new ApiError(_0x3fee57, _0x3011e4);
+      const _0x876141 = await Room[_0x526d52(0x128)](_0x48d28c);
+      if (!_0x876141) {
+        const _0x1ce8f6 = httpStatus[_0x526d52(0x143)],
+          _0x437bfa = errors[_0x526d52(0x14f)]["notFound"];
+        throw new ApiError(_0x1ce8f6, _0x437bfa);
       }
-      await usersService[_0x4ec07f(0x136)](
-        [..._0x44eaac[_0x4ec07f(0x18a)]],
-        _0x1f1297
+      await usersService[_0x526d52(0x101)](
+        [..._0x876141[_0x526d52(0x13f)]],
+        _0x48d28c
       ),
-        (_0x44eaac["members"] = []);
-      const _0x3b51b5 = await Message[_0x4ec07f(0x160)]({
-        receiver: _0x44eaac[_0x4ec07f(0x14b)],
+        (_0x876141[_0x526d52(0x13f)] = []);
+      const _0x34280f = await Message[_0x526d52(0xfc)]({
+        receiver: _0x876141[_0x526d52(0x148)],
       });
-      _0x3b51b5[_0x4ec07f(0x15f)](async (_0x391ade) => {
-        const _0x3b9e93 = _0x4ec07f,
-          _0x1e9c54 = _0x391ade?.["file"]?.[_0x3b9e93(0x137)];
-        _0x1e9c54 && (await localStorage[_0x3b9e93(0x13c)](_0x1e9c54));
+      _0x34280f[_0x526d52(0x14b)](async (_0x517359) => {
+        const _0x1c9801 = _0x526d52,
+          _0x3441df = _0x517359?.[_0x1c9801(0xf7)]?.[_0x1c9801(0x145)];
+        _0x3441df && (await localStorage[_0x1c9801(0x14a)](_0x3441df));
       }),
-        await Message[_0x4ec07f(0x170)]({ receiver: _0x44eaac["_id"] }),
-        (_0x44eaac[_0x4ec07f(0x13b)] = []),
-        await _0x44eaac[_0x4ec07f(0x17c)]();
-      const _0x2c119f = await Assignment[_0x4ec07f(0x160)]({
-        room: _0x44eaac["_id"],
-      });
-      _0x2c119f[_0x4ec07f(0x15f)](async (_0x5b6904) => {
-        const _0x2c9fa0 = _0x4ec07f;
-        await localStorage[_0x2c9fa0(0x13c)](
-          _0x5b6904["file"][_0x2c9fa0(0x137)]
+        await Message[_0x526d52(0x121)]({
+          receiver: _0x876141[_0x526d52(0x148)],
+        }),
+        (_0x876141["pinnedMessages"] = []),
+        await _0x876141[_0x526d52(0x140)]();
+      const _0x548546 = await Assignment["find"]({ room: _0x876141["_id"] });
+      _0x548546[_0x526d52(0x14b)](async (_0x519996) => {
+        const _0x17cf75 = _0x526d52;
+        await localStorage["deleteFile"](
+          _0x519996[_0x17cf75(0xf7)][_0x17cf75(0x145)]
         );
-        const _0x1a1236 = await Submission[_0x2c9fa0(0x160)]({
-          assignmentId: _0x5b6904[_0x2c9fa0(0x14b)],
+        const _0xc767d7 = await Submission["find"]({
+          assignmentId: _0x519996["_id"],
         });
-        _0x1a1236["forEach"](async (_0x4dcd0f) => {
-          const _0xca86d1 = _0x2c9fa0;
-          _0x4dcd0f[_0xca86d1(0x15a)][_0xca86d1(0x15f)](async (_0x3efb73) => {
-            const _0x407c2d = _0xca86d1;
-            await localStorage[_0x407c2d(0x13c)](_0x3efb73[_0x407c2d(0x137)]);
+        _0xc767d7["forEach"](async (_0x41ca88) => {
+          const _0x40d3d1 = _0x17cf75;
+          _0x41ca88[_0x40d3d1(0x126)]["forEach"](async (_0x45c0a9) => {
+            const _0x25b047 = _0x40d3d1;
+            await localStorage[_0x25b047(0x14a)](_0x45c0a9[_0x25b047(0x145)]);
           });
         });
       }),
-        await Assignment["deleteMany"]({ room: _0x44eaac[_0x4ec07f(0x14b)] }),
-        await Submission[_0x4ec07f(0x170)]({ roomId: _0x44eaac["_id"] });
-    } catch (_0x5805a9) {
-      throw _0x5805a9;
+        await Assignment["deleteMany"]({ room: _0x876141["_id"] }),
+        await Submission[_0x526d52(0x121)]({
+          roomId: _0x876141[_0x526d52(0x148)],
+        });
+    } catch (_0x448c27) {
+      throw _0x448c27;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x163)] = async (
-    _0x30f7aa,
-    _0x268ef1
+  (module[_0x5d3e81(0x136)]["switchRoomToPublic"] = async (
+    _0x2756d8,
+    _0x273526
   ) => {
-    const _0x3047fa = _0x298462;
+    const _0x27f02e = _0x5d3e81;
     try {
-      const _0x18b38f = await Room[_0x3047fa(0x143)](_0x268ef1);
-      if (!_0x18b38f) {
-        const _0x570726 = httpStatus["NOT_FOUND"],
-          _0x343e5b = errors[_0x3047fa(0x130)][_0x3047fa(0x148)];
-        throw new ApiError(_0x570726, _0x343e5b);
+      const _0x172350 = await Room[_0x27f02e(0x128)](_0x273526);
+      if (!_0x172350) {
+        const _0x16431d = httpStatus[_0x27f02e(0x143)],
+          _0x33f06c = errors[_0x27f02e(0x14f)][_0x27f02e(0x144)];
+        throw new ApiError(_0x16431d, _0x33f06c);
       }
       if (
-        _0x18b38f[_0x3047fa(0x159)][_0x3047fa(0x187)]() !==
-        _0x30f7aa[_0x3047fa(0x14b)][_0x3047fa(0x187)]()
+        _0x172350[_0x27f02e(0x13b)][_0x27f02e(0xf9)]() !==
+        _0x2756d8[_0x27f02e(0x148)]["toString"]()
       ) {
-        const _0x13fa3e = httpStatus[_0x3047fa(0x153)],
-          _0x189025 = errors[_0x3047fa(0x130)][_0x3047fa(0x134)];
-        throw new ApiError(_0x13fa3e, _0x189025);
+        const _0x13aaa5 = httpStatus[_0x27f02e(0x129)],
+          _0x59062d = errors[_0x27f02e(0x14f)][_0x27f02e(0x11f)];
+        throw new ApiError(_0x13aaa5, _0x59062d);
       }
       return (
-        (_0x18b38f[_0x3047fa(0x17a)] = _0x3047fa(0x156)),
-        await _0x18b38f[_0x3047fa(0x17c)](),
-        _0x18b38f
+        (_0x172350[_0x27f02e(0x106)] = _0x27f02e(0x131)),
+        await _0x172350[_0x27f02e(0x140)](),
+        _0x172350
       );
-    } catch (_0x20c654) {
-      throw _0x20c654;
+    } catch (_0x4f09de) {
+      throw _0x4f09de;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x133)] = async (
-    _0x2c5169,
-    _0x4f80c0
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x104)] = async (
+    _0x4ec483,
+    _0x2bb88c
   ) => {
-    const _0x3bf1f3 = _0x298462;
+    const _0x5c84a8 = _0x5d3e81;
     try {
-      const _0x344d3b = await Room[_0x3bf1f3(0x143)](_0x4f80c0);
-      if (!_0x344d3b) {
-        const _0x5f5c55 = httpStatus[_0x3bf1f3(0x194)],
-          _0x1d886c = errors[_0x3bf1f3(0x130)]["notFound"];
-        throw new ApiError(_0x5f5c55, _0x1d886c);
+      const _0x471906 = await Room["findById"](_0x2bb88c);
+      if (!_0x471906) {
+        const _0x49d701 = httpStatus[_0x5c84a8(0x143)],
+          _0x354b50 = errors[_0x5c84a8(0x14f)][_0x5c84a8(0x144)];
+        throw new ApiError(_0x49d701, _0x354b50);
       }
       if (
-        _0x344d3b[_0x3bf1f3(0x159)]["toString"]() !==
-        _0x2c5169[_0x3bf1f3(0x14b)][_0x3bf1f3(0x187)]()
+        _0x471906["author"][_0x5c84a8(0xf9)]() !==
+        _0x4ec483[_0x5c84a8(0x148)][_0x5c84a8(0xf9)]()
       ) {
-        const _0x58685d = httpStatus[_0x3bf1f3(0x153)],
-          _0x1c2fa6 = errors["rooms"][_0x3bf1f3(0x134)];
-        throw new ApiError(_0x58685d, _0x1c2fa6);
+        const _0x2d323a = httpStatus[_0x5c84a8(0x129)],
+          _0x4c10f2 = errors[_0x5c84a8(0x14f)][_0x5c84a8(0x11f)];
+        throw new ApiError(_0x2d323a, _0x4c10f2);
       }
       return (
-        (_0x344d3b[_0x3bf1f3(0x17a)] = _0x3bf1f3(0x12e)),
-        await _0x344d3b[_0x3bf1f3(0x17c)](),
-        _0x344d3b
+        (_0x471906["status"] = "private"),
+        await _0x471906[_0x5c84a8(0x140)](),
+        _0x471906
       );
-    } catch (_0x2fb00d) {
-      throw _0x2fb00d;
+    } catch (_0x1e0eca) {
+      throw _0x1e0eca;
     }
   }),
-  (module["exports"][_0x298462(0x152)] = async (_0x16e9f6) => {
-    const _0x28921c = _0x298462;
+  (module[_0x5d3e81(0x136)]["pinRoom"] = async (_0x20fbb2) => {
+    const _0x3c9176 = _0x5d3e81;
     try {
-      const _0x565f3e = await Room[_0x28921c(0x143)](_0x16e9f6);
-      if (!_0x565f3e) {
-        const _0x293bec = httpStatus[_0x28921c(0x194)],
-          _0x198013 = errors["rooms"][_0x28921c(0x148)];
-        throw new ApiError(_0x293bec, _0x198013);
+      const _0x23251f = await Room[_0x3c9176(0x128)](_0x20fbb2);
+      if (!_0x23251f) {
+        const _0x58b137 = httpStatus[_0x3c9176(0x143)],
+          _0x4f8237 = errors[_0x3c9176(0x14f)][_0x3c9176(0x144)];
+        throw new ApiError(_0x58b137, _0x4f8237);
       }
       return (
-        (_0x565f3e[_0x28921c(0x171)] = !![]),
-        await _0x565f3e[_0x28921c(0x17c)](),
-        _0x565f3e
+        (_0x23251f[_0x3c9176(0x102)] = !![]),
+        await _0x23251f[_0x3c9176(0x140)](),
+        _0x23251f
       );
-    } catch (_0x4855d6) {
-      throw _0x4855d6;
+    } catch (_0x27bb42) {
+      throw _0x27bb42;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x16a)] = async (_0x495e64) => {
-    const _0x51002d = _0x298462;
+  (module["exports"]["unpinRoom"] = async (_0x428bd1) => {
+    const _0xc7c41e = _0x5d3e81;
     try {
-      const _0x3d39aa = await Room[_0x51002d(0x143)](_0x495e64);
-      if (!_0x3d39aa) {
-        const _0x1a2cdb = httpStatus[_0x51002d(0x194)],
-          _0x5a9633 = errors[_0x51002d(0x130)][_0x51002d(0x148)];
-        throw new ApiError(_0x1a2cdb, _0x5a9633);
+      const _0xceca79 = await Room[_0xc7c41e(0x128)](_0x428bd1);
+      if (!_0xceca79) {
+        const _0xf8b652 = httpStatus["NOT_FOUND"],
+          _0x4f92f2 = errors[_0xc7c41e(0x14f)][_0xc7c41e(0x144)];
+        throw new ApiError(_0xf8b652, _0x4f92f2);
       }
       return (
-        (_0x3d39aa[_0x51002d(0x171)] = ![]),
-        await _0x3d39aa[_0x51002d(0x17c)](),
-        _0x3d39aa
+        (_0xceca79[_0xc7c41e(0x102)] = ![]),
+        await _0xceca79["save"](),
+        _0xceca79
       );
-    } catch (_0xbe5477) {
-      throw _0xbe5477;
+    } catch (_0x291c47) {
+      throw _0x291c47;
     }
   }),
-  (module[_0x298462(0x146)][_0x298462(0x14d)] = async (
-    _0xb1729f,
-    _0x46c4d8,
-    _0x2b1e29
+  (module[_0x5d3e81(0x136)][_0x5d3e81(0x153)] = async (
+    _0x2fd85e,
+    _0x53c85a,
+    _0x541a91
   ) => {
-    const _0x6573f0 = _0x298462;
+    const _0x5bbd85 = _0x5d3e81;
     try {
-      const _0xbbcb6a = await this[_0x6573f0(0x135)](_0xb1729f, _0x46c4d8);
-      if (!_0x2b1e29) return _0xbbcb6a;
-      return _0xbbcb6a[_0x6573f0(0x16e)](
-        (_0xe13d82) =>
-          _0xe13d82["firstname"][_0x6573f0(0x154)](_0x2b1e29) ||
-          _0xe13d82[_0x6573f0(0x166)]["includes"](_0x2b1e29)
+      const _0x4c3c63 = await this[_0x5bbd85(0x138)](_0x2fd85e, _0x53c85a);
+      if (!_0x541a91) return _0x4c3c63;
+      return _0x4c3c63[_0x5bbd85(0x114)](
+        (_0x1278c4) =>
+          _0x1278c4[_0x5bbd85(0xf6)][_0x5bbd85(0x130)](_0x541a91) ||
+          _0x1278c4[_0x5bbd85(0x147)][_0x5bbd85(0x130)](_0x541a91)
       );
-    } catch (_0x3c91c2) {
-      throw _0x3c91c2;
+    } catch (_0x29366b) {
+      throw _0x29366b;
     }
   });
-function _0x2814() {
-  const _0x135fdc = [
-    "searchRoomMembers",
-    "createdRooms",
-    "notJoined",
-    "invalidType",
-    "unshift",
-    "pinRoom",
-    "FORBIDDEN",
-    "includes",
-    "users",
-    "public",
-    "alreadyJoined",
-    "unblockUsersFromChatting",
-    "author",
-    "files",
-    "name",
-    "../../models/assignment.model",
-    "chatDisabled",
-    "getMappedRooms",
-    "forEach",
-    "find",
-    "delete",
-    "map",
-    "switchRoomToPublic",
-    "file",
-    "12580rKMmYa",
-    "lastname",
-    "../../models/room.model",
-    "aggregate",
-    "1148SznhPt",
-    "unpinRoom",
-    "UNAUTHORIZED",
-    "message",
-    "../user/users.service",
-    "filter",
-    "./messages.service",
-    "deleteMany",
-    "isPinned",
-    "noRooms",
-    "findRoomByName",
-    "getAllRooms",
-    "query",
-    "assignments",
-    "../storage/localStorage.service",
-    "toggleChatDisabled",
-    "joinRoom",
-    "status",
-    "resetRoom",
-    "save",
-    "333nhcWqo",
-    "5162958UCfqdG",
-    "../../models/submission.model",
-    "incorrectCode",
-    "BAD_GATEWAY",
-    "role",
-    "textScore",
-    "getAllPublicRooms",
-    "7022752WlEviM",
-    "../../models/message.model",
-    "toString",
-    "ObjectId",
-    "code",
-    "members",
-    "toggleShowName",
-    "changeRoomName",
-    "blockList",
-    "body",
-    "Types",
-    "1334170vFVjOa",
-    "483310gryUdY",
-    "deleteRoomAssets",
-    "user",
-    "NOT_FOUND",
-    "private",
-    "blockUsersFromChatting",
-    "rooms",
-    "findByIdAndDelete",
-    "invalidCode",
-    "switchRoomToPrivate",
-    "unauthorized",
-    "getRoomMembers",
-    "unjoinUsersFromRoom",
-    "url",
-    "findRoomById",
-    "BAD_REQUEST",
-    "messages",
-    "pinnedMessages",
-    "deleteFile",
-    "reachedMaximumRooms",
-    "$members",
-    "deleteMembers",
-    "showName",
-    "../../models/user.model",
-    "joinedRooms",
-    "findById",
-    "5095629ryUJyf",
-    "../../middleware/apiError",
-    "exports",
-    "3vfMENa",
-    "notFound",
-    "length",
-    "deleteRoom",
-    "_id",
-    "208188eXrhWl",
-  ];
-  _0x2814 = function () {
-    return _0x135fdc;
-  };
-  return _0x2814();
-}
