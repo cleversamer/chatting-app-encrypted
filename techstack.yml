@@ -1,0 +1,322 @@
+repo_name: cleversamerr/chatting-app-encrypted
+report_id: b5059f55626abff8ebee5ee3d280e8dc
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-24T12:38:44+00:00'
+requested_by: cleversamerr
+provider: github
+branch: main
+detected_tools_count: 22
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: Firebase
+  description: The Realtime App Platform
+  website_url: https://firebase.google.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 7.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 4.7.1
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: Passport
+  description: Simple, unobtrusive authentication for Node.js
+  website_url: http://passportjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: mailgen
+  description: A Node.js package that generates clean, responsive HTML e-mails for
+    sending transactional mail
+  website_url: https://github.com/eladnava/mailgen
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Open Source Email Templates
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: adm-zip
+  description: Javascript implementation of zip for nodejs with support for electron
+    original-fs
+  package_url: https://www.npmjs.com/adm-zip
+  version: 0.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16663/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: express-validator
+  description: Express middleware for the validator module
+  package_url: https://www.npmjs.com/express-validator
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17906/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: firebase-admin
+  description: Firebase admin SDK for Node.js
+  package_url: https://www.npmjs.com/firebase-admin
+  version: 5.13.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17151/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: http-status
+  description: Interact with HTTP status code
+  package_url: https://www.npmjs.com/http-status
+  version: 1.6.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17707/default_7ff152b9bcf219fad0d56c78a016d5bad6a2a526.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: node-schedule
+  description: A cron-like and not-cron-like job scheduler for Node
+  package_url: https://www.npmjs.com/node-schedule
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17126/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
+- name: passport-jwt
+  description: Passport authentication strategy using JSON Web Tokens
+  package_url: https://www.npmjs.com/passport-jwt
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18238/default_d0bdfc944c04fa7e84198f9a2784cc716a3d91a3.png
+  detection_source_url: https://github.com/cleversamerr/chatting-app-encrypted/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: cleversamerr
+  last_updated_on: 2023-07-09 10:11:33.000000000 Z
